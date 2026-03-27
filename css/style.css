@@ -207,6 +207,7 @@ body {
     margin: 0 auto;
   }
 
+  
   .s3-grid {
     display: flex;
     justify-content: space-between;
@@ -316,7 +317,7 @@ body {
 
   .rightmobile {
     flex: 1;
-    display: flex;
+    display: none;
 
     img {
       width: 470px;
