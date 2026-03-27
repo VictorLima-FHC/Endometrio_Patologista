@@ -298,6 +298,10 @@
       }
     }
 
+    .content-box {
+      padding: 10px;
+    }
+
     .tabs {
       flex-wrap: nowrap;
       border-radius: 5px 5px 0 0;
@@ -336,9 +340,6 @@
         font-size: 10px;
       }
 
-      br {
-        display: none;
-      }
     }
 
     .close-modal {
@@ -424,9 +425,17 @@
       .groups {
         flex-direction: column;
         align-items: flex-start;
+        
+        .badge {
+          display: flex;
+          width: 100px;
+          justify-content: center;
+          align-items: center;
+
+        }
 
         .badges {
-          width: 200px;
+          width: 220px;
         }
       }
       h2 {
