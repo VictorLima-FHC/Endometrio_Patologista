@@ -340,6 +340,14 @@
         font-size: 10px;
       }
 
+      .br {
+        display: none;
+      }
+
+      .mobile {
+        display: flex;
+      }
+
     }
 
     .close-modal {
